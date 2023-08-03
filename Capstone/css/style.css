@@ -1,0 +1,138 @@
+/* .img {
+    width:100%;
+    z-index: 0; }
+    
+.text-over-img {
+    z-index:1;
+    font-size: 1.2em
+    margin-top: -100px;
+} */
+
+/* .maintxt {
+    background-image: url(images/blob-cover-photo.png);
+    background-size: cover;
+} */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 8vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+p {
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    /* list-style-image: url("../images/BW_corp_pic_SQUARE.jpeg"); */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 200px 300px;
+    text-align: left;
+    margin-bottom: 200px;
+    
+}
+
+.gridP {
+    text-align: left;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+.good-egg {
+    font-size: 3vw;
+    color: white;
+}
+
+.profile-pic {
+    border-radius: 80%;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.intro {
+    padding-bottom: 100px;
+}
+
+.skills {
+    padding-bottom: 30px;
+}
+
+.divSkills {
+    padding-top: 50px;
+    background-color: hotpink;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+
+.button:hover {background-color: purple}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.touch {
+    margin: 50px;
+}
